@@ -1,0 +1,45 @@
+/* CSS EXTERNO (style.css) */
+
+/* 1. Fondo de la página */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* 2, 3 y 4. Color, fondo, alineación, bordes y bordes redondeados */
+h1 {
+    color: darkblue;
+    background-color: lightblue;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: lightgreen;
+    text-align: left;
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+h3 {
+    color: purple;
+    background-color: lavender;
+    text-align: right;
+    border: 2px dotted purple;
+    border-radius: 50px 0px 50px 0px;
+}
+
+/* Estilos del formulario */
+fieldset {
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
